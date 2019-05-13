@@ -71,10 +71,15 @@ Plug 'othree/csscomplete.vim'
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS noci
 Plug 'kien/ctrlp.vim'
 Plug 'ap/vim-css-color'
+Plug 'vim-scripts/matchit.zip'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'kabbamine/gulp-vim'
 Plug 'junegunn/limelight.vim'
 Plug 'spf13/piv'
 Plug 'lumiliet/vim-twig'
+Plug 'lifepillar/vim-cheat40'
+Plug 'bling/vim-bufferline'
+Plug 'yuttie/comfortable-motion.vim'
+Plug 'prettier/vim-prettier'
 call plug#end()
 colorscheme gruvbox
